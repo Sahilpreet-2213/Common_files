@@ -1,0 +1,18 @@
+{% extends "first.html" %} 
+
+{% block body %}
+{% load static %}
+
+{% for x in images %} 
+<center>
+
+{{ x.images }}
+<div class='row-md-3'>
+<div class="card row-md-3" style="width: 18rem;">        
+  <img src="/media/img/{{ x.images }}" class="card-img-top" alt="..."> 
+</div></div>
+</center>
+<br>
+
+{% endfor %}
+{% endblock %} 

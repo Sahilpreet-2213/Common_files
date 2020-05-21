@@ -1,0 +1,17 @@
+
+
+{
+    "data":{
+        "path1":"first",
+        "path2":"second",
+        "path3":"third",
+        "path4":"to_post",
+        "uri":"mysql://root:@localhost/main",
+        "user":"sahilpreets2001@gmail.com",
+        "pass":"waheguru2213",
+        "login_image":"login.svg",
+        "admin_user":"sahilpreets2003@gmail.com",
+        "admin_pass": "waheguru2213"
+        
+    }
+}
