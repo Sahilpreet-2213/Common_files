@@ -1,0 +1,18 @@
+{% extends "first.html" %} 
+{% block body %}
+
+{% for x in main_content%}
+<center>
+<br>
+{{ x.img }}
+<div class='row-md-3'>
+<div class="card row-md-3" style="width: 18rem;">
+  <img src={{ url_for('static',filename= x.img ) }} class="card-img-top" alt="...">
+
+</div></div>
+</center>
+{% endfor %}
+
+
+
+{% endblock %} 
