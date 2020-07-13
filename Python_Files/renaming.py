@@ -1,4 +1,4 @@
-import os 
+import os, sys
 
 def pre_file(dir,file,formats):
     os.chdir(dir)
